@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+<title> Asif::Home </title>
+<link rel="stylesheet" type="text/css" href="asif.css" />
+</head>
+<body>
+<div id="header" align="center"><marquee style="width:630px" align='top' behavior = 'scroll' direction = 'left' onmouseout=this.start(); onmouseover=this.stop(); scrollamount='2' scrolldelay='30' truespeed="truespeed"> This Website is Under construction </marquee> </div>
+
+<div id="content" >
+
+<div id="menu" style="display:inline-block;background-color:#999;">
+<ul  >
+  <li style="color : orange;"><a href="http://">Home</a></li>
+  <li style="color : orange;"><a href="http://">Tutorial</a>
+    <ul>
+      <li style="color : orange;"><a href="http://www.w3schools.com/html/default.asp" target="iframe_a">Html</a></li>
+      <li style="color : orange;"><a href="http://www.w3schools.com/css/default.asp"target="iframe_a">CSS</a></li>
+    <li style="color : orange;"><a href="http://www.w3schools.com/js/default.asp"target="iframe_a">JavaScript</a></li>
+      <li style="color : orange;"><a href="http://www.w3schools.com/php/default.asp"target="iframe_a">php</a></li>
+	  
+    </ul>
+	</li>
+    
+	<li><a href="">Posts</a>
+    <ul>
+      <li style="color : orange;"><a href=""target="iframe_a">Posts</a></li>
+      <li style="color : orange;"><a href=""target="iframe_a">Notification</a></li> 
+    </ul>
+	</li>
+	<li style="color : orange;"><a href="http://"target="iframe_a">Photo</a></li>
+	<li style="color : orange;"><a href="http://"target="iframe_a">Phone</a>
+	   <ul>
+	       <li style="color : black;">+8801924656681</li>
+           <li style="color : black;">+8801520102590</li>
+	      
+	    </ul
+	</li>
+	</ul> </hr>
+	  </div></hr></hr>
+	<div id=”rightcolumn” style="float: right;margin-right:70px;height:50%; width: 64%;display:inline-block; background-color:white;">
+	<iframe src="demo_iframe.htm" name="iframe_a"height=460px width=765px;><img src"pic1.jpg"></iframe>
+
+	
+	  </div>
+	  <div id=”leftcolumn” style="float: left;margin-left:60px;height:525px; width: 24%;display:inline-block;color : orange; background-color:none;">
+       <ul ><b>Others </b><br>
+	   <li><a href="http://www.prothom-alo.com/"> News </a> </li>
+	   <li><a href="http://www.espncricinfo.com/"> Sports </a></li>
+	   <li><a href="http://www.nstu.edu.bd">About NSTU</a></li>
+	   </ul>
+	   </hr> <br><br><br>
+	   <a href="mailto:asifnewaz.cste@gmail.com">Email</a>
+       <br>
+	   <br><br> <br> 
+	    <a href="http://www.rongpencil4lyf.blogspot.com/">Profile</a><br><br><br>
+	   <br> 
+	   <form method="get" id="searchform" action="http://www.asifnewaz.webatu.com">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form><br>
+	    <br> 
+	  <br>
+    </div>
+    </div>
+		
+</body>
+</html>
+
+
+
