@@ -1,0 +1,28 @@
+#header{ background-color : light green ;
+color : orange; 
+width: 92%; 
+height: 50px;}
+body{
+background-image:url('pic4.jpg');}
+#content{
+width: 90%; 
+margin-left: auto;
+margin-right: auto;
+clear:both; }
+#menu ul{border:1px;solid;red;
+padding:0px;margin-left:8px;margin-top:3px; list-style:circle;}
+#menu li { height:35px;
+float:left; position:relative; padding-left:98px;padding-right:90px;
+display:block;border: #200202;
+border-style:none;}
+#menu li ul {
+display:none;
+position:absolute;}
+#menu li:hover ul{
+display:block;
+background-color:orange;
+height:auto; width:auto;}
+#window{ clear:both;
+margin-right:100px;
+background-color : white;
+float:right;}
